@@ -51,8 +51,6 @@ public class Main {
 	    LookupName.readFile(nameFiles.get(k), femaleList, totalFemaleArray, "female");
 	}
 	
-	//LookupName.calcInfo(args, FEMALE, femaleList, totalFemaleArray);
-	//LookupName.calcInfo(args, MALE, maleList, totalMaleArray);
 	LookupName.calcInfo(args, maleList, femaleList, totalMaleArray, totalFemaleArray);
 	
     }
